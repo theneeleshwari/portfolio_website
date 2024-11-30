@@ -1,3 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font: "Roboto-Condensed" "sana-serif";
+}
+.root {
+  --primary-white: #ffffff;
+}
+/******************************* Navigation bar styling ********************************/
+.container {
+  width: 100%;
+}
+.logo {
+  width: 5rem;
+  /* height: 20rem; */
+}
+
+/*******************************Menu Links ********************************/
+
+nav a.nav-link {
+  /* font-weight: 500; */
+  letter-spacing: 0.03rem;
+  /* color: white; */
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+.navbar-nav > li > a {
+  /* color: var(--primary-white) !important; */
+  color: skyblue;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  /* background-color: rgb(143, 5, 148); */
+  background-color: transparent;
+  border: 0.18rem solid transparent;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus,
+.nav-item-active {
+  color: white !important;
+  font-weight: 500;
+  border: 0.18rem solid rgb(239, 64, 195);
+}
+.navbar-nav > li > a:hover {
+  border-top: 0.18rem solid rgb(239, 64, 195);
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  max-width: 30.5rem;
+  padding: 0rem;
+  height: 6rem;
+}
+
 .App {
   text-align: center;
 }
