@@ -1,6 +1,9 @@
 import React from "react";
 import Logo from "../nlogo.png";
 import newLogo from "../newlogo.png";
+// Import the FontAwesomeIcon component and desired icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee, faHome } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
